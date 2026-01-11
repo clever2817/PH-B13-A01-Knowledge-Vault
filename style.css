@@ -1,3 +1,18 @@
+/* Custome Google Font */
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter";
+}
+
 .border {
   max-width: 1360px;
   margin: 0 auto;
@@ -67,24 +82,31 @@ nav {
   background-color: white;
 }
 
-.hero-title p{
+.hero-title{
     font-style: bold;
-    font-size: 60px;
+    font-size: 70px;
+    margin-top: 20px;
+    font-weight: 600;
 }
 
 .hero-description{
     color: white;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    line-height: 30px;
+    text-align: center;
 }
 
 .hero-btns{
     display: flex;
-    gap: 10px;
+    gap: 25px;
 }
 
 .btn-1, .btn-2{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 10px;
 }
 
 .btn-2{
