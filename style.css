@@ -179,3 +179,48 @@ nav {
   color: #627382;
   text-align: center;
 }
+
+.second-brain-container{
+  display: flex;
+  margin-top: 120px;
+  margin-bottom: 120px;
+  gap: 60px;
+  align-items: center;
+}
+
+.second-brain-texts{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.solution{
+  color: #30b868;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.sb-title{
+  font-size: 48px;
+  text-transform: capitalize;
+}
+
+.sb-description{
+  color: #627382;
+}
+
+.sb-list{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.checkmark{
+  display: flex;
+  gap: 10px;
+}
+
+.checkmark p {
+  font-weight: 500;
+}
