@@ -6,7 +6,7 @@
   font-style: normal;
 }
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -31,6 +31,7 @@ a {
   color: white;
   font: bold;
   cursor: pointer;
+  font-weight: 600;
 }
 
 .btn:hover {
@@ -82,34 +83,35 @@ nav {
   background-color: white;
 }
 
-.hero-title{
-    font-style: bold;
-    font-size: 70px;
-    margin-top: 20px;
-    font-weight: 600;
+.hero-title {
+  font-style: bold;
+  font-size: 70px;
+  margin-top: 20px;
+  font-weight: 600;
 }
 
-.hero-description{
-    color: white;
-    margin-top: 20px;
-    margin-bottom: 25px;
-    line-height: 30px;
-    text-align: center;
+.hero-description {
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  line-height: 30px;
+  text-align: center;
 }
 
-.hero-btns{
-    display: flex;
-    gap: 25px;
+.hero-btns {
+  display: flex;
+  gap: 25px;
 }
 
-.btn-1, .btn-2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
+.btn-1,
+.btn-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 
-.btn-2{
+.btn-2 {
   padding: 12px 16px;
   border: 2px solid white;
   background-color: transparent;
@@ -119,19 +121,19 @@ nav {
   cursor: pointer;
 }
 
-.btn-2:hover{
-    background-color: white;
-    color: black;
+.btn-2:hover {
+  background-color: white;
+  color: black;
 }
 
-.notes-heading{
+.notes-heading {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.notes-heading h2{
+.notes-heading h2 {
   text-transform: capitalize;
   font-size: 48px;
   font-weight: bold;
@@ -139,17 +141,17 @@ nav {
   margin-top: 70px;
 }
 
-.notes-heading p{
+.notes-heading p {
   margin-bottom: 45px;
   color: #627382;
 }
 
-.notes-card-container{
+.notes-card-container {
   display: flex;
   gap: 25px;
 }
 
-.notes-card{
+.notes-card {
   height: 300px;
   width: 325px;
   padding: 24px;
@@ -162,25 +164,25 @@ nav {
   box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.08);
 }
 
-.notes-card img{
-  background-color: #F95555;
+.notes-card img {
+  background-color: #f95555;
   padding: 20px;
   border-radius: 50%;
 }
 
-.notes-card h3{
+.notes-card h3 {
   font-size: 24px;
   font-weight: 600;
   text-transform: capitalize;
   text-align: center;
 }
 
-.notes-card p{
+.notes-card p {
   color: #627382;
   text-align: center;
 }
 
-.second-brain-container{
+.second-brain-container {
   display: flex;
   margin-top: 120px;
   margin-bottom: 120px;
@@ -188,39 +190,59 @@ nav {
   align-items: center;
 }
 
-.second-brain-texts{
+.second-brain-texts {
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
 
-.solution{
+.solution {
   color: #30b868;
   text-transform: uppercase;
   font-weight: 600;
 }
 
-.sb-title{
+.sb-title {
   font-size: 48px;
   text-transform: capitalize;
 }
 
-.sb-description{
+.sb-description {
   color: #627382;
 }
 
-.sb-list{
+.sb-list {
   display: flex;
   flex-direction: column;
   gap: 10px;
   margin-top: 20px;
 }
 
-.checkmark{
+.checkmark {
   display: flex;
   gap: 10px;
 }
 
 .checkmark p {
   font-weight: 500;
+}
+
+.ea-container {
+  margin-bottom: 120px;
+  padding: 80px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  background-color: #f7f6f2;
+}
+
+.ea-title {
+  font-size: 40px;
+  text-transform: capitalize;
+}
+
+.ea-container p {
+  color: #627382;
 }
