@@ -246,3 +246,40 @@ nav {
 .ea-container p {
   color: #627382;
 }
+
+.footer{
+  background-color: #001931;
+}
+
+.footer-container{
+  height: 300px;
+  color: white;
+}
+
+.footer-upper{
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 120px;
+}
+
+.footer-right{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-social-icons{
+  display: flex;
+  gap: 16px;
+}
+
+.icon{
+  height: 20px;
+  width: 20px;
+}
+
+.footer-lower{
+  padding-top: 30px;
+  text-align: center;
+  color: #FAFAFA;
+}
